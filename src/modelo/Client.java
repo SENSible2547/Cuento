@@ -2,11 +2,13 @@ package modelo;
 
 import java.util.Scanner;
 
+
 import fantasia.FantasyFactory;
 import infantil.InfantilFactory;
 import terror.TerrorFactory;
 
 public class Client {
+	
 	public static void main(String[] args) {
 		AbstractFactory factory =null;
 		//
@@ -34,4 +36,5 @@ public class Client {
 		System.out.println(d.getTipo());
 		
 	}
+	
 }
